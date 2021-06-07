@@ -10,23 +10,17 @@
     time = substr(parts[3],6)
     if(month=="Jan"){
         month = "01"
-    }
-    else if(month=="Feb"){
+    }else if(month=="Feb"){
         month = "02"
-    }
-    else if(month=="Mar"){
+    }else if(month=="Mar"){
         month = "03"
-    }
-    else if(month=="Apr"){
+    }else if(month=="Apr"){
         month = "04"
-    }
-    else if(month=="May"){
+    }else if(month=="May"){
         month = "05"
-    }
-    else if(month=="June"){
+    }else if(month=="June"){
         month = "06"
-    }
-    else if(month=="July"){
+    }else if(month=="July"){
         month = "07"
     }else if(month=="Aug"){
         month = "08"
