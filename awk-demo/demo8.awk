@@ -28,3 +28,8 @@ NR%2{
 /$6 ~ /FIN|TIME/ || NR==1{
     print $6
 }
+
+#反向匹配
+/$6 !~ /FIN|TIME/ || NR==1{
+    print $6
+}
